@@ -1,7 +1,7 @@
 # exodus
 DM Helper for Exodus
 
-# TODO:
+## TODO:
 
 - Character name, player name, age, gender, race, height and weight
 - Basic create/save/load (as things get added, add to create/save/load)
