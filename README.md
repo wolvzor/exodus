@@ -1,9 +1,11 @@
 # exodus
 DM Helper for Exodus
 
+## Notes:
++ Character name, player name, age, gender, race, height and weight
+
 ## TODO:
 
-- Character name, player name, age, gender, race, height and weight
 - Basic create/save/load (as things get added, add to create/save/load)
 - Ability scores (STR, DEC, CON, INT, WIS, CHA)
 - background, occupation
