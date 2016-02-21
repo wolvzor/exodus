@@ -39,7 +39,7 @@ dependencies {
     
     testCompile (
     		"junit:junit:${libVersions.junit}",
-    		"org.spockframework:${libVersions.spockCore}",
+    		"org.spockframework:spock-core:${libVersions.spockCore}",
     		"cglib:cglib-nodep:${libVersions.cglib}",
     )
 }
