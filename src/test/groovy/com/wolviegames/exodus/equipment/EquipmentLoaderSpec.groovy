@@ -10,7 +10,8 @@ public class EquipmentLoaderSpec extends Specification {
 
     def "Equipment loader reads equipment from an XML file"() {
         setup:
-        EquipmentLoader equipmentLoader = new EquipmentLoader()
+        def xmlFileName = "testEquipmentFile.xml"
+        EquipmentLoader equipmentLoader = new EquipmentLoader(xmlFileName)
 
         when:
         equipmentLoader.load();
