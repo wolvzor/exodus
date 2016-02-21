@@ -1,0 +1,20 @@
+<root>
+  <equipments>
+    <equipment>
+      <name>Equipment Name</name>
+      <description>Equipment Description</description>
+      <weight>1.25</weight>
+      <cost>100</cost>
+      <scarcity>INFREQUENT</scarcity>
+      <category>ARMOR</category>
+    </equipment>
+    <equipment>
+      <name>Equipment Name 2</name>
+      <description>Equipment Description 2</description>
+      <weight>3</weight>
+      <cost>75</cost>
+      <scarcity>RARE</scarcity>
+      <category>MANUAL</category>
+    </equipment>
+  </equipments>
+</root>
