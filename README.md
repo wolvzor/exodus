@@ -3,10 +3,12 @@ DM Helper for Exodus
 
 ## Notes:
 + Character name, player name, age, gender, race, height and weight
++ Equipment - cost, weight, name, desc
 
 ## URGENT TODO:
 + Barter Helper
-+ equipment cost, weight, and etc wtfs.
++ equipment categories
++ equipment scarcity
 
 ## TODO:
 
