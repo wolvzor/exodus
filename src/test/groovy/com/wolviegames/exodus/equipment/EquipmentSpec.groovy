@@ -26,4 +26,12 @@ class EquipmentSpec extends Specification {
         then:
         equipment.getEquipmentCategory() == EquipmentCategory.NONE
     }
+
+    def "Equipment also has a scarcity"() {
+        when:
+        Equipment equipment = new Equipment()
+
+        then:
+        equipment.getScarcity() == Scarcity.COMMON
+    }
 }

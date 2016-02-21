@@ -3,11 +3,16 @@ DM Helper for Exodus
 
 ## Notes:
 + Character name, player name, age, gender, race, height and weight
-+ Equipment - cost, weight, name, desc, equipment category
++ Equipment - cost, weight, name, desc, equipment category, scarcity
 
 ## URGENT TODO:
-+ Barter Helper
-+ equipment scarcity
++ Equipment loader
++ barter NPC representation
++ Scarcity calculator
++ barter contested roll check
++ equipment search
++ final payment calculator
+++ Barter Helper
 
 ## TODO:
 

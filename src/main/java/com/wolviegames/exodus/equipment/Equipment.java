@@ -1,8 +1,5 @@
 package com.wolviegames.exodus.equipment;
 
-import java.math.BigDecimal;
-import java.math.BigInteger;
-
 public class Equipment {
 
     private String name;
@@ -10,6 +7,7 @@ public class Equipment {
     private Double weight;
     private Integer cost;
     public EquipmentCategory equipmentCategory;
+    public Scarcity scarcity;
 
     public Equipment() {
         this.name = "Name";
@@ -17,6 +15,16 @@ public class Equipment {
         this.weight = 0.0;
         this.cost = 0;
         this.equipmentCategory = EquipmentCategory.NONE;
+        this.scarcity = Scarcity.COMMON;
+    }
+
+    public Equipment(String name, String description, Double weight, Integer cost, EquipmentCategory equipmentCategory, Scarcity scarcity) {
+        this.name = name;
+        this.description = description;
+        this.weight = weight;
+        this.cost = cost;
+        this.equipmentCategory = equipmentCategory;
+        this.scarcity = scarcity;
     }
 
     public Equipment(String name, String description, Double weight, Integer cost, EquipmentCategory equipmentCategory) {
@@ -65,5 +73,13 @@ public class Equipment {
 
     public void setEquipmentCategory(EquipmentCategory equipmentCategory) {
         this.equipmentCategory = equipmentCategory;
+    }
+
+    public Scarcity getScarcity() {
+        return scarcity;
+    }
+
+    public void setScarcity(Scarcity scarcity) {
+        this.scarcity = scarcity;
     }
 }
