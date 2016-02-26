@@ -209,14 +209,6 @@
       <category>AMMUNITION</category>
     </equipment>
     <equipment>
-      <name>.223 Ammunition</name>
-      <description>.22 Ammunition for Handguns</description>
-      <weight>0.025</weight>
-      <cost>4</cost>
-      <scarcity>RARE</scarcity>
-      <category>AMMUNITION</category>
-    </equipment>
-    <equipment>
       <name>Fusion Cell</name>
       <description>Fusion Cell Ammunition for Energy Firearms</description>
       <weight>1</weight>
