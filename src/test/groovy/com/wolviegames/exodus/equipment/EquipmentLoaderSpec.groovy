@@ -33,5 +33,17 @@ public class EquipmentLoaderSpec extends Specification {
         equipmentLoader.getEquipment().get(1).getEquipmentCategory() == EquipmentCategory.MANUAL
     }
 
+    def "Equipment loader loads the ammunition equipment"() {
+        setup:
+        def xmlFileName = "equipment/Ammunition.xml"
+        EquipmentLoader equipmentLoader = new EquipmentLoader(xmlFileName)
+
+        when:
+        equipmentLoader.load()
+
+        then:
+        equipmentLoader.getEquipment().size() == 32;
+    }
+
     // TODO Exceptions
 }

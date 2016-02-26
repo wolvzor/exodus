@@ -1,0 +1,268 @@
+<root>
+  <equipments>
+    <equipment>
+      <name>.22 Ammunition</name>
+      <description>.22 Ammunition for Handguns</description>
+      <weight>0.025</weight>
+      <cost>1</cost>
+      <scarcity>COMMON</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>.223 Ammunition</name>
+      <description>.223 Ammunition for Handguns</description>
+      <weight>0.025</weight>
+      <cost>4</cost>
+      <scarcity>RARE</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>.357 Ammunition</name>
+      <description>.357 Ammunition for Handguns</description>
+      <weight>0.025</weight>
+      <cost>6</cost>
+      <scarcity>UNCOMMON</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>.38 Ammunition</name>
+      <description>.38 or .380 Ammunition for Handguns</description>
+      <weight>0.025</weight>
+      <cost>3</cost>
+      <scarcity>UNCOMMON</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>.44 Ammunition</name>
+      <description>.44 Ammunition for Handguns</description>
+      <weight>0.05</weight>
+      <cost>3</cost>
+      <scarcity>UNCOMMON</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>.45 Ammunition</name>
+      <description>.45 Ammunition for Handguns</description>
+      <weight>0.033</weight>
+      <cost>8</cost>
+      <scarcity>INFREQUENT</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>.50 Ammunition</name>
+      <description>.50 Ammunition for Handguns and Rifles</description>
+      <weight>0.05</weight>
+      <cost>15</cost>
+      <scarcity>INFREQUENT</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>2mm EC Ammunition</name>
+      <description>2mm EC Ammunition for Handguns and Rifles</description>
+      <weight>0.05</weight>
+      <cost>9</cost>
+      <scarcity>RARE</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>5.7mm Ammunition</name>
+      <description>5.7mm Ammunition for Submachines</description>
+      <weight>0.025</weight>
+      <cost>12</cost>
+      <scarcity>VERY_RARE</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>9mm Ammunition</name>
+      <description>9mm Ammunition for Handguns</description>
+      <weight>0.025</weight>
+      <cost>5</cost>
+      <scarcity>COMMON</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>10mm Ammunition</name>
+      <description>10mm Ammunition for Handguns</description>
+      <weight>0.05</weight>
+      <cost>4</cost>
+      <scarcity>UNCOMMON</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>14mm Ammunition</name>
+      <description>14mm Ammunition for Handguns</description>
+      <weight>0.05</weight>
+      <cost>15</cost>
+      <scarcity>INFREQUENT</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>.30-06 Ammunition</name>
+      <description>.30-06 Ammunition for Rifles</description>
+      <weight>0.05</weight>
+      <cost>8</cost>
+      <scarcity>INFREQUENT</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>.30-30 Ammunition</name>
+      <description>.30-30 Ammunition for Rifles</description>
+      <weight>0.033</weight>
+      <cost>7</cost>
+      <scarcity>INFREQUENT</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>.444 Ammunition</name>
+      <description>.444 Ammunition for Rifles</description>
+      <weight>0.033</weight>
+      <cost>11</cost>
+      <scarcity>RARE</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>4.7mm caseless Ammunition</name>
+      <description>4.7mm caseless Ammunition for Rifles</description>
+      <weight>0.033</weight>
+      <cost>12</cost>
+      <scarcity>RARE</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>5mm Ammunition</name>
+      <description>5mm Ammunition for Rifles</description>
+      <weight>0.033</weight>
+      <cost>3</cost>
+      <scarcity>INFREQUENT</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>5.56mm Ammunition</name>
+      <description>5.56mm Ammunition for Rifles</description>
+      <weight>0.033</weight>
+      <cost>6</cost>
+      <scarcity>INFREQUENT</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>6.5mm Ammunition</name>
+      <description>6.5mm Ammunition for Rifles</description>
+      <weight>0.033</weight>
+      <cost>7</cost>
+      <scarcity>INFREQUENT</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>7.62mm Ammunition</name>
+      <description>7.62mm Ammunition for Rifles</description>
+      <weight>0.05</weight>
+      <cost>8</cost>
+      <scarcity>INFREQUENT</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>8mm Ammunition</name>
+      <description>8mm Ammunition for Rifles</description>
+      <weight>0.05</weight>
+      <cost>8</cost>
+      <scarcity>INFREQUENT</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>.10 Gauge Shot Ammunition</name>
+      <description>.10 Gauge Shot Ammunition for Shotguns</description>
+      <weight>0.033</weight>
+      <cost>17</cost>
+      <scarcity>RARE</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>.12 Gauge Shot Ammunition</name>
+      <description>.12 Gauge Shot Ammunition for Shotguns</description>
+      <weight>0.033</weight>
+      <cost>11</cost>
+      <scarcity>UNCOMMON</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>.20 Gauge Shot Ammunition</name>
+      <description>.20 Gauge Shot Ammunition for Shotguns</description>
+      <weight>0.033</weight>
+      <cost>8</cost>
+      <scarcity>INFREQUENT</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>.12 Slug Ammunition</name>
+      <description>.12 Slug Ammunition for Shotguns</description>
+      <weight>0.05</weight>
+      <cost>10</cost>
+      <scarcity>INFREQUENT</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>.20 Slug Ammunition</name>
+      <description>.20 Slug Ammunition for Shotguns</description>
+      <weight>0.05</weight>
+      <cost>7</cost>
+      <scarcity>INFREQUENT</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>.223 Ammunition</name>
+      <description>.22 Ammunition for Handguns</description>
+      <weight>0.025</weight>
+      <cost>4</cost>
+      <scarcity>RARE</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>Fusion Cell</name>
+      <description>Fusion Cell Ammunition for Energy Firearms</description>
+      <weight>1</weight>
+      <cost>20</cost>
+      <scarcity>INFREQUENT</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>Fuel Tank</name>
+      <description>Fuel Tank Ammunition for Flamethrowers</description>
+      <weight>5</weight>
+      <cost>25</cost>
+      <scarcity>INFREQUENT</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>Rockwell Rocket</name>
+      <description>Rockwell Rocket Ammunition for Rocket Launchers</description>
+      <weight>2</weight>
+      <cost>200</cost>
+      <scarcity>INFREQUENT</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>Arbalest Bolt</name>
+      <description>Arbalest Bolt Ammunition for Archaic Bow</description>
+      <weight>1</weight>
+      <cost>2</cost>
+      <scarcity>RARE</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>Crossbow Bolt</name>
+      <description>Crossbow Bolt Ammunition for Archaic Bow</description>
+      <weight>0.083</weight>
+      <cost>1</cost>
+      <scarcity>INFREQUENT</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+    <equipment>
+      <name>Arrow</name>
+      <description>Arrow Ammunition for Archaic Bow</description>
+      <weight>0.05</weight>
+      <cost>2</cost>
+      <scarcity>INFREQUENT</scarcity>
+      <category>AMMUNITION</category>
+    </equipment>
+  </equipments>
+</root>
