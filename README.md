@@ -5,12 +5,13 @@ DM Helper for Exodus
 + Character name, player name, age, gender, race, height and weight
 + Equipment - cost, weight, name, desc, equipment category, scarcity
 + Equipment loader
-
-## URGENT TODO:
-+ Equipment XML Files
 + barter NPC representation
 + Scarcity calculator
 + barter contested roll check
+
+## URGENT TODO:
++ Equipment XML Files
++ barter check translated to %
 + equipment search
 + final payment calculator
 ++ Barter Helper
