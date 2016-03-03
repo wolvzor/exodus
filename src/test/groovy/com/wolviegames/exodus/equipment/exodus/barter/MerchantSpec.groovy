@@ -26,4 +26,16 @@ class MerchantSpec extends Specification {
         merchant.getEquipmentCategories() == equipmentCategories
     }
 
+    def "Merchants have a barter result stored by the character who performed it"() {
+        setup:
+        Merchant merchant = new Merchant()
+        merchant.setBarterSkill(30)
+
+        when: "A PC rolls a barter skill w/ a result of 30"
+        merchant.performBarterRoll("PC name", 30)
+
+        then: "The merchant now has barter result, which will be positive in this case"
+        merchant.getBarterSkillResult("PC name") > 0
+    }
+
 }
