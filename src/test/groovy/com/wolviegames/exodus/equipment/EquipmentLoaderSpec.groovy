@@ -10,9 +10,9 @@ public class EquipmentLoaderSpec extends Specification {
 
     def "Equipment loader reads equipment from an XML file"() {
         setup:
-        def xmlFileNames = Arrays.asList("testEquipmentFile.xml")
+        def xmlFileName = "testEquipmentList.xml"
 
-        EquipmentLoader equipmentLoader = new EquipmentLoader(xmlFileNames)
+        EquipmentLoader equipmentLoader = new EquipmentLoader(xmlFileName)
 
         when:
         equipmentLoader.load();
@@ -36,8 +36,8 @@ public class EquipmentLoaderSpec extends Specification {
 
     def "Equipment loader loads the ammunition equipment"() {
         setup:
-        def xmlFileNames =  Arrays.asList("equipment/Ammunition.xml")
-        EquipmentLoader equipmentLoader = new EquipmentLoader(xmlFileNames)
+        def xmlFileName =  "equipment/EquipmentFileList.xml"
+        EquipmentLoader equipmentLoader = new EquipmentLoader(xmlFileName)
 
         when:
         equipmentLoader.load()
@@ -48,8 +48,8 @@ public class EquipmentLoaderSpec extends Specification {
 
     def "Equipment loader can load multiple files"() {
         setup:
-        def xmlFileNames = Arrays.asList("testEquipmentFile.xml","equipment/Ammunition.xml")
-        EquipmentLoader equipmentLoader = new EquipmentLoader(xmlFileNames)
+        def xmlFileName = "testEquipmentMultipleList.xml"
+        EquipmentLoader equipmentLoader = new EquipmentLoader(xmlFileName)
 
         when:
         equipmentLoader.load()

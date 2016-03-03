@@ -7,15 +7,28 @@ class EquipmentLoader {
 
     private List<Equipment> equipmentList
 
-    EquipmentLoader(List<String> xmlFileNames) {
-        this.xmlFileNames = xmlFileNames
+    EquipmentLoader(String xmlFileName) {
+
+        // Load the list of equipment xml files
+        ClassLoader classLoader = getClass().getClassLoader()
+        xmlFileNames = new ArrayList<String>()
+
+        def rootNode = new XmlSlurper().parseText(new File(classLoader.getResource(xmlFileName).getFile()).getText())
+
+        rootNode.fileList.file.each {
+            System.out.println(it.text())
+            xmlFileNames.add(it.text())
+        }
+
         equipmentList = new ArrayList<Equipment>()
+
     }
 
     public load() {
         ClassLoader classLoader = getClass().getClassLoader()
 
         for (String xmlFileName : xmlFileNames) {
+            System.out.println(xmlFileName)
             def rootNode = new XmlSlurper().parseText(new File(classLoader.getResource(xmlFileName).getFile()).getText())
 
             rootNode.equipments.children().each {
