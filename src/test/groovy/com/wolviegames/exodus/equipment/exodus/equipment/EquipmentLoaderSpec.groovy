@@ -1,5 +1,7 @@
-package com.wolviegames.exodus.equipment;
+package com.wolviegames.exodus.equipment.exodus.equipment
 
+import com.wolviegames.exodus.equipment.EquipmentCategory
+import com.wolviegames.exodus.equipment.Scarcity;
 import spock.lang.Specification;
 
 public class EquipmentLoaderSpec extends Specification {
@@ -10,7 +12,9 @@ public class EquipmentLoaderSpec extends Specification {
 
     def "Equipment loader reads equipment from an XML file"() {
         setup:
-        EquipmentLoader equipmentLoader = new EquipmentLoader()
+        def xmlFileName = "testEquipmentList.xml"
+
+        EquipmentLoader equipmentLoader = new EquipmentLoader(xmlFileName)
 
         when:
         equipmentLoader.load();
@@ -30,6 +34,30 @@ public class EquipmentLoaderSpec extends Specification {
         equipmentLoader.getEquipment().get(1).getCost() == 75
         equipmentLoader.getEquipment().get(1).getScarcity() == Scarcity.RARE
         equipmentLoader.getEquipment().get(1).getEquipmentCategory() == EquipmentCategory.MANUAL
+    }
+
+    def "Equipment loader loads the ammunition equipment"() {
+        setup:
+        def xmlFileName =  "config/EquipmentFileList.xml"
+        EquipmentLoader equipmentLoader = new EquipmentLoader(xmlFileName)
+
+        when:
+        equipmentLoader.load()
+
+        then:
+        equipmentLoader.getEquipment().size() == 32;
+    }
+
+    def "Equipment loader can load multiple files"() {
+        setup:
+        def xmlFileName = "testEquipmentMultipleList.xml"
+        EquipmentLoader equipmentLoader = new EquipmentLoader(xmlFileName)
+
+        when:
+        equipmentLoader.load()
+
+        then:
+        equipmentLoader.getEquipment().size() == 34;
     }
 
     // TODO Exceptions

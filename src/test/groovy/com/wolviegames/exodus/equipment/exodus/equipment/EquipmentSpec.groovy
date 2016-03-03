@@ -1,5 +1,8 @@
-package com.wolviegames.exodus.equipment
+package com.wolviegames.exodus.equipment.exodus.equipment
 
+import com.wolviegames.exodus.equipment.Equipment
+import com.wolviegames.exodus.equipment.EquipmentCategory
+import com.wolviegames.exodus.equipment.Scarcity
 import spock.lang.Specification
 
 class EquipmentSpec extends Specification {

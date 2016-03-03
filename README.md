@@ -4,9 +4,10 @@ DM Helper for Exodus
 ## Notes:
 + Character name, player name, age, gender, race, height and weight
 + Equipment - cost, weight, name, desc, equipment category, scarcity
++ Equipment loader
 
 ## URGENT TODO:
-+ Equipment loader
++ Equipment XML Files
 + barter NPC representation
 + Scarcity calculator
 + barter contested roll check
@@ -15,7 +16,7 @@ DM Helper for Exodus
 ++ Barter Helper
 
 ## TODO:
-
+- Use Spring to take advantage of PathMatchingResourcePatternResolver for equipment loader
 - Basic create/save/load (as things get added, add to create/save/load)
 - Ability scores (STR, DEC, CON, INT, WIS, CHA)
 - background, occupation
