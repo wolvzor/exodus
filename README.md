@@ -15,7 +15,7 @@ DM Helper for Exodus
 ++ Barter Helper
 
 ## TODO:
-
+- Use Spring to take advantage of PathMatchingResourcePatternResolver for equipment loader
 - Basic create/save/load (as things get added, add to create/save/load)
 - Ability scores (STR, DEC, CON, INT, WIS, CHA)
 - background, occupation
