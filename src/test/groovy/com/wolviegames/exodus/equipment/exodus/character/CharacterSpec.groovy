@@ -1,5 +1,8 @@
-package com.wolviegames.exodus.character
+package com.wolviegames.exodus.equipment.exodus.character
 
+import com.wolviegames.exodus.character.Character
+import com.wolviegames.exodus.character.Gender
+import com.wolviegames.exodus.character.Race
 import spock.lang.Specification;
 
 public class CharacterSpec extends Specification {

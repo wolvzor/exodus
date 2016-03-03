@@ -1,5 +1,7 @@
-package com.wolviegames.exodus.equipment;
+package com.wolviegames.exodus.equipment.exodus.equipment
 
+import com.wolviegames.exodus.equipment.EquipmentCategory
+import com.wolviegames.exodus.equipment.Scarcity;
 import spock.lang.Specification;
 
 public class EquipmentLoaderSpec extends Specification {
@@ -36,7 +38,7 @@ public class EquipmentLoaderSpec extends Specification {
 
     def "Equipment loader loads the ammunition equipment"() {
         setup:
-        def xmlFileName =  "equipment/EquipmentFileList.xml"
+        def xmlFileName =  "config/EquipmentFileList.xml"
         EquipmentLoader equipmentLoader = new EquipmentLoader(xmlFileName)
 
         when:
