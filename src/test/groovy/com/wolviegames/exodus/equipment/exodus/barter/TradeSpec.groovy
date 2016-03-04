@@ -176,6 +176,7 @@ class TradeSpec extends Specification {
         String fileContents = new File(fileName).text
         fileContents == "Player: " + player + lineSeparator +
                         "Merchant: " + merchant.getName() + lineSeparator +
+                        "Barter Bias: " + merchant.getBarterSkillResult(player) + lineSeparator +
                         lineSeparator +
                         "Purchased:" + lineSeparator +
                         armorQuantity + " " + armor.getName() + " for 90 total." + lineSeparator +
@@ -184,7 +185,6 @@ class TradeSpec extends Specification {
                         ammoQuantity + " " + ammo.getName() + " for 22 total." + lineSeparator +
                         lineSeparator +
                         "Total bottlecaps owed to merchant: " + openTrade.getBottlecapsOwedToMerchant() + lineSeparator
-
     }
 
 }

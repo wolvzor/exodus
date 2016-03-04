@@ -77,6 +77,7 @@ class Trade {
         new File(fileName).withWriter('utf-8') { writer ->
             writer.write('Player: ' + playerCharacter + lineSeparator)
             writer.write('Merchant: ' + merchant.getName() + lineSeparator)
+            writer.write('Barter Bias: ' + merchant.getBarterSkillResult(playerCharacter) + lineSeparator)
             writer.write(lineSeparator)
             writer.write("Purchased:" + lineSeparator)
             for(Map.Entry<Equipment,Integer> entry: merchantEquipmentForSale.entrySet()) {
