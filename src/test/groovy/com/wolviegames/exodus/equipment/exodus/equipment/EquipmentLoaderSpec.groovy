@@ -1,6 +1,7 @@
 package com.wolviegames.exodus.equipment.exodus.equipment
 
 import com.wolviegames.exodus.equipment.EquipmentCategory
+import com.wolviegames.exodus.equipment.EquipmentLoader
 import com.wolviegames.exodus.equipment.Scarcity;
 import spock.lang.Specification;
 

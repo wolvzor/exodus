@@ -1,6 +1,6 @@
 package com.wolviegames.exodus;
 
-import com.wolviegames.exodus.equipment.exodus.equipment.EquipmentLoader;
+import com.wolviegames.exodus.equipment.EquipmentLoader;
 
 public class Exodus {
 
