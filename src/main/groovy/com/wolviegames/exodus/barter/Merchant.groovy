@@ -24,7 +24,6 @@ class Merchant {
 
     // Performs a barter roll result
     // Positive represents merchant win
-    // TODO translate this to a %discount
     void performBarterRoll(String pcName, int pcBarterResult){
         // TODO create a dice roller
         int barterRollResult = (int)(Math.random() * 20) + 1 + barterSkill

@@ -8,12 +8,12 @@ DM Helper for Exodus
 + barter NPC representation
 + Scarcity calculator
 + barter contested roll check
++ final payment calculator
++ barter check translated to %
 
 ## URGENT TODO:
 + Equipment XML Files
-+ barter check translated to %
 + equipment search
-+ final payment calculator
 ++ Barter Helper
 
 ## TODO:
