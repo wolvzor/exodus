@@ -20,7 +20,6 @@ class Merchant {
                     equipmentList.add(equipment)
             }
         }
-
     }
 
     // Performs a barter roll result
