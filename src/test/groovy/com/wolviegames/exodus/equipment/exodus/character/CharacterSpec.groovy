@@ -27,7 +27,8 @@ public class CharacterSpec extends Specification {
 
     def "Character can also be created with known values"() {
         when:
-        Character character = new Character("Test Character","Wolvie",25,Gender.FEMALE,Race.HUMAN,60,120)
+        Character character = new Character(characterName:"Test Character",playerName:"Wolvie",age:25,
+                gender:Gender.FEMALE,race:Race.HUMAN,height:60,weight:120)
 
         then:
         character.getCharacterName().equals("Test Character")
