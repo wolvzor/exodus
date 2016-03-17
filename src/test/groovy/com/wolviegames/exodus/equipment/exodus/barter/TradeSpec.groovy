@@ -144,7 +144,7 @@ class TradeSpec extends Specification {
         openTrade.addPlayerEquipmentForSale(ammo, ammoQuantity)
         openTrade.calculateTrade()
 
-        then: "the difference is 22 vs 90, since player sells for half cost and the merchant gets the 10%"
+        then: "the difference is 22 vs 90, since player sells for half cost and the player gets the 10%"
         openTrade.getBottlecapsOwedToMerchant() == 68
     }
 
