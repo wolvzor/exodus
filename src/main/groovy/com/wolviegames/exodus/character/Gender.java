@@ -4,7 +4,8 @@ public enum Gender {
     NONE(0),
     MALE(1),
     FEMALE(2),
-    GENDERQUEER(3);
+    GENDERQUEER(3),
+    AGENDER(4);
 
     private final int value;
 
